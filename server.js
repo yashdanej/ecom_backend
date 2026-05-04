@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "teridukan.vercel.app",
+    origin: "https://teridukan.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
